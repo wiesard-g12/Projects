@@ -11,6 +11,7 @@ MNIST dataset with 60,000 training and 10,000 test images
 Images are 28x28 grayscale of digits 0–9
 
 -Model:
+
 CNN with convolutional layers, max pooling, and dense layers
 
 Softmax output layer for classification
