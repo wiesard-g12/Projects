@@ -13,21 +13,22 @@ This project implements a Long Short-Term Memory (LSTM) neural network to predic
 ✅ Visualize predicted vs actual stock prices to evaluate performance
 
 🛠️ Technologies Used
-Python
 
-TensorFlow / Keras
+1. Python
 
-Pandas and NumPy
+2. TensorFlow / Keras
 
-Matplotlib
+3. Pandas and NumPy
 
-Jupyter Notebook
+4. Matplotlib
+
+5. Jupyter Notebook
 
 🚀 How to Run
 
-1️⃣ Open StockPrediction_using_LSTM.ipynb in Jupyter Notebook.
+1️. Open StockPrediction_using_LSTM.ipynb in Jupyter Notebook.
 
-2️⃣ Run all cells to:
+2. Run all cells to:
 
 Preprocess the data
 
