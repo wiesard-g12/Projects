@@ -1,41 +1,50 @@
-📈 Stock Price Prediction using LSTM
+# 📈 Stock Price Prediction using LSTM
 
-🗂️ Overview
+## 🗂️ Overview
 
-This project implements a Long Short-Term Memory (LSTM) neural network to predict stock prices using historical data. It uses the apple_20.csv dataset containing Apple's historical stock prices for model training and testing.
+This project implements a **Long Short-Term Memory (LSTM)** neural network to predict stock prices using historical data. It uses the `apple_20.csv` dataset containing Apple's historical stock prices for model training and testing.
 
-🎯 Objectives
+---
 
-✅ Load and preprocess stock price data
+## 🎯 Objectives
 
-✅ Build and train an LSTM model for time series prediction
-
+✅ Load and preprocess stock price data  
+✅ Build and train an LSTM model for time series prediction  
 ✅ Visualize predicted vs actual stock prices to evaluate performance
 
-🛠️ Technologies Used
+---
 
-1. Python
+## 🛠️ Technologies Used
 
-2. TensorFlow / Keras
+- Python
+- TensorFlow / Keras
+- Pandas and NumPy
+- Matplotlib
+- Jupyter Notebook
 
-3. Pandas and NumPy
+---
 
-4. Matplotlib
+## 🚀 How to Run
 
-5. Jupyter Notebook
+1️⃣ Open `StockPrediction_using_LSTM.ipynb` in Jupyter Notebook.  
+2️⃣ Run all cells to:
+   - Preprocess the data
+   - Train the LSTM model
+   - Visualize predicted vs actual stock prices
 
-🚀 How to Run
+---
 
-1️. Open StockPrediction_using_LSTM.ipynb in Jupyter Notebook.
+## 📊 Results
 
-2. Run all cells to:
+The LSTM model effectively captures stock price trends, providing a clear **visual comparison of actual and predicted prices** to understand stock movement patterns.
 
-Preprocess the data
+---
 
-Train the LSTM model
+## 🪄 Future Improvements
 
-Visualize predicted vs actual stock prices
+- Hyperparameter tuning to improve accuracy
+- Integration with live stock data APIs for real-time prediction
+- Saving and deploying the trained model for web or mobile interfaces
+- Exploring GRU and Transformer models for comparison
 
-📊 Results
-
-The LSTM model effectively captures stock price trends, providing a clear visual comparison of actual and predicted prices to understand stock movement patterns.
+---
