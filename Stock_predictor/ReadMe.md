@@ -1,19 +1,13 @@
-Stock Price Prediction using LSTM
-
-Overview :
-
+📈 Stock Price Prediction using LSTM
+🗂️ Overview
 This project implements a Long Short-Term Memory (LSTM) neural network to predict stock prices using historical data. It uses the apple_20.csv dataset containing Apple's historical stock prices for model training and testing.
 
-Objectives :
+🎯 Objectives
+✅ Load and preprocess stock price data
+✅ Build and train an LSTM model for time series prediction
+✅ Visualize predicted vs actual stock prices to evaluate performance
 
-Load and preprocess stock price data
-
-Build and train an LSTM model for time series prediction
-
-Visualize predicted vs actual stock prices to evaluate performance
-
-Technologies Used :
-
+🛠️ Technologies Used
 Python
 
 TensorFlow / Keras
@@ -24,12 +18,15 @@ Matplotlib
 
 Jupyter Notebook
 
-How to Run :
+🚀 How to Run
+1️⃣ Open StockPrediction_using_LSTM.ipynb in Jupyter Notebook.
+2️⃣ Run all cells to:
 
-Open StockPrediction_using_LSTM.ipynb in Jupyter Notebook.
+Preprocess the data
 
-Run all cells to preprocess data, train the model, and visualize predictions.
+Train the LSTM model
 
-Results :
+Visualize predicted vs actual stock prices
 
-The LSTM model captures stock price trends, providing a visual comparison of actual and predicted prices for understanding stock movement patterns.
+📊 Results
+The LSTM model effectively captures stock price trends, providing a clear visual comparison of actual and predicted prices to understand stock movement patterns.
