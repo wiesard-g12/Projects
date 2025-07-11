@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Sudoku Game</h1>
+
+    <!-- Difficulty Buttons -->
+    <div id="difficulty-buttons">
+        <button onclick="generateRandomPuzzle('easy')">Generate Easy</button>
+        <button onclick="generateRandomPuzzle('medium')">Generate Medium</button>
+        <button onclick="generateRandomPuzzle('hard')">Generate Hard</button>
+
+    </div>
+
+    <!-- Sudoku Grid -->
+    <div id="sudoku-container"></div>
+
+    <!-- Control Buttons -->
+    <div id="control-buttons">
+        <button onclick="checkPuzzle()">Check</button>
+        <button onclick="solvePuzzle()">Solve</button>
+    </div>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
