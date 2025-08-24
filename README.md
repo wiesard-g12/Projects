@@ -12,7 +12,7 @@ I am a tech enthusiast who loves exploring **web development, competitive progra
 
 ## 🚀 Interests
 
-- Web development (frontend)
+- Web development
 - Machine learning and deep learning
 - Algorithm design and problem-solving
 - Automation and scripting
